@@ -6,6 +6,11 @@ Build-Depends: debhelper-compat (= 12),
                appstream,
                dh-sequence-python3,
                meson,
+               debmake,
+               devscripts,
+               dh-python,
+               equivs,
+               git-buildpackage
 Rules-Requires-Root: no
 Standards-Version: 4.5.0
 Homepage: https://lutris.net
@@ -39,7 +44,7 @@ Depends: ${misc:Depends},
          mesa-utils,
          vulkan-tools,
          xdg-desktop-portal,
-         xdg-desktop-portal-gtk | xdg-desktop-portal-kde | xdg-desktop-portal-hyprland | xdg-desktop-portal-wlr,
+         xdg-desktop-portal-gtk | xdg-desktop-portal-kde,
 Recommends: python3-evdev,
             python3-protobuf,
             gvfs-backends,

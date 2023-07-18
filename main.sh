@@ -3,7 +3,7 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-git clone --recurse-submodules https://github.com/lutris/lutris.git 
+git clone --recurse-submodules https://github.com/lutris/lutris.git  -b v0.5.13
 cd lutris
 cp -rvf ../debian ./
 
