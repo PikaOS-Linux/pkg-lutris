@@ -1,6 +1,6 @@
-lutris (0.5.13-99pika3) lunar; urgency=medium
+lutris (0.5.16-100pika1) pikauwu; urgency=medium
 
-  * Fix weirdness
+  * Update to 0.5.16
 
  -- ferrreo <harderthanfire@gmail.com>  Fri, 23 June 2023 13:15:40 -0800
 
